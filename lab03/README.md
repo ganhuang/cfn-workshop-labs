@@ -18,7 +18,7 @@ By the end of this lab, you will be able to:
 1. In **Prepare template**, choose **Template is ready**.
 1. In **Template source**, choose **Upload a template file**.
 1. Click on **Choose file** button and navigate to your workshop directory.
-1. Select the file `lab03-stack.yaml`.
+1. Select the file [lab03-stack.yaml](lab03-stack.yaml).
 1. Click **Next**.
 1. Provide a **Stack name**: **cfn-workshop-003**.
     + The _Stack name_ identifies the stack. Use a name to help you distinguish the purpose of this stack.
@@ -78,23 +78,3 @@ Follow these steps to clean up created resources:
 ### Conclusion
 
 Use change sets when you want to ensure that AWS CloudFormation doesn't make unintentional changes or when you want to consider several options. It's also the best practice to use change sets to update resources to avoid the unintentional changes for your infrastructure.
-
-
-```
-{
-  "Statement" : [
-    {
-      "Effect" : "Allow",
-      "Action" : "Update:*",
-      "Principal": "*",
-      "Resource" : "*"
-    },
-    {
-      "Effect" : "Deny",
-      "Action" : "Update:*",
-      "Principal": "*",
-      "Resource" : "LogicalResourceId/CFNBucket"
-    }
-  ]
-}
-```

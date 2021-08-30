@@ -19,7 +19,7 @@ By the end of this lab, you will be able to:
 1. In **Prepare template**, choose **Template is ready**.
 1. In **Template source**, choose **Upload a template file**.
 1. Click on **Choose file** button and navigate to your workshop directory.
-1. Select the file `lab05-stack.yaml`.
+1. Select the file [lab05-stack.yaml](./lab05-stack.yaml).
 1. Click **Next**.
 1. Provide a **Stack name**: **cfn-workshop-005**.
     + The _Stack name_ identifies the stack. Use a name to help you distinguish the purpose of this stack.
@@ -47,8 +47,8 @@ By the end of this lab, you will be able to:
 
 #### 4. Resolve drift by updating the template
 
-1. Open and Edit the file `lab05-stack.yaml`.
-1. Update the status of **Status** to **Enabled** for the file `lab05-stack.yaml`.
+1. Open and Edit the file [lab05-stack.yaml](./lab05-stack.yaml).
+1. Update the status of **Status** to **Enabled** for the file [lab05-stack.yaml](./lab05-stack.yaml).
 ```
     Type: AWS::S3::Bucket
     Properties:
