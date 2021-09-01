@@ -1,6 +1,6 @@
 # CloudFormation Quiz
 
-###1. Create an empty ECS cluster.
+### 1. Create an empty ECS cluster.
 
 **Input Requirements** (20'):
 + Allow to specify the cluster name
@@ -16,7 +16,7 @@
 + Use [nested stack](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-nested-stacks.html) to spin up the ECS cluster. (Create a root stack on top of the ECS cluster stack.)
 + Output the Amazon Resource Name (ARN)
 
-###2. Create a SNS topic to subscript the events for a cloudformation stack creating a S3 bucket
+### 2. Create a SNS topic to subscript the events for a cloudformation stack
 
 **Bonus 1** (15'):
 + A SNS topic and email subscription are created in one cloudformation stack
