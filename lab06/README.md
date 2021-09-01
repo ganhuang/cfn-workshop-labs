@@ -68,7 +68,7 @@ By the end of this lab, you will be able to:
 ```
 > The well-updated stack template is [here](./lab06-stack-import-resource.yaml) for your reference.
 
-#### 3. Import the existing resource into the stack using the AWS Management Console
+#### 4. Import the existing resource into the stack using the AWS Management Console
 
 1. Sign in to the AWS Management Console and open the AWS CloudFormation console at [https://console\.aws\.amazon\.com/cloudformation](https://console.aws.amazon.com/cloudformation/)\.
 
