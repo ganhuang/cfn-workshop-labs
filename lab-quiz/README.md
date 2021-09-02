@@ -5,7 +5,7 @@
 VPC Architecture:
 ![vpc-arc](images/create-a-vpc.jpg)
 
-**Input Requirements** (20'):
+**Requirements** (20'):
 + Create 1 VPC across 2 availibility zones. Each AZ has 1 public subnet and 1 private subnet
 + Create 1 EIP in each AZ
 + Create 1 NAT Gateway in each AZ
